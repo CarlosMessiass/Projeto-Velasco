@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; 
+}
+
+body {
+  background-color: #dadde2;
+  height: 1000vh;
+}
+
+/* Menu */
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header .btn-contato button, .hero-site button {
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+} 
+
+/* Estilo do header */
+
+header {
+  width: 100%;
+  padding: 40px 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  z-index: 999999999999;
+}
+
+header.rolar {
+  background-color: #dadde2;
+  padding: 10px 0;
+  box-shadow: 0 0 8px #00000061;
+}
+
+header.rolar .menu-desktop nav ul li a {
+  color: #1b3a71;
+}
+
+header.rolar .btn-contato button {
+  border: 1px solid #1b3a71;
+  color: #1b3a71;
+}
+
+header.rolar .btn-contato button:hover {
+  background-color: #0a358e;
+  color: #fff;
+}
+
+header.rolar .logo img {
+  margin-left: 130px;
+}
+
+header.rolar .btn-contato button {
+  margin-left: -240px;
+}
+
+header.rolar .menu-desktop nav {
+  margin-left: -220px;
+  margin-top: 10px;
+}
+
+header .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  max-width: 60px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+header .menu-desktop nav ul {
+  list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+
+header .menu-desktop nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.1s;
+}
+
+
+.menu-desktop nav a:hover {
+  transform: scale(1.05);
+}
+
+header .btn-contato button {
+  width: 100px;
+  height: 40px;
+}
+
+
+header .btn-contato button:hover, .hero-site button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Pagina inicial */
+
+section.hero-site {
+  height: 100vh;
+  background-image: url(img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 131px;
+}
+
+.hero-site .interface {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-site .txt-hero h1 {
+  font-size: 3em;
+  line-height: 55px;
+  font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span {
+  display: block;
+  font-weight: 800;
+}
+
+.hero-site .txt-hero p {
+  font-size: 19px;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.hero-site .txt-hero p span {
+  display: block;
+}
+
+.hero-site button {
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
+}
+
+/* Sobre */
+
+section.sobre {
+  background-color: #dadde2;
+  height: 72vh;
+  padding: 60px;
+  box-shadow: 0 0 8px #00000061;
+}
+
+.sobre .interface {
+  display: flex;
+  align-items: center;
+  height: 40%;
+}
+
+.sobre .interface h1 {
+  font-size: 3em;
+  line-height: 55px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.sobre .interface p {
+  font-size: 19px;
+  font-weight: 300;
+  margin: 15px 0;
+  text-align: left;
+  color: #000000;
+}
+
+.sobre .interface p a {
+  text-decoration: none;
+  color: #0a358e;
+}
+
+.sobre .interface p a:hover {
+  color: #4265a1;
+}
+
+.line-mf {
+  width: 150px;
+  height: 2px;
+  background-color: #0a358e;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+
+.sobre .txt-sobre {
+  border: solid 2px #1b3a71;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px #00000061;
+  padding: 50px;
+}
+
+.sobre img {
+  max-width: 350px;
+  margin-left: 650px;
+  margin-top: -300px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #00000061;
+  transition: 0.1s;
+}
+
+.sobre img:hover {
+  transform: scale(1.01);
+}
+
+section .pag2 {
+  background-color: #dadde2;
+  height: 200vh;
+}
+
+.pag2 h1 {
+  text-align: center;
+  justify-content: center;
+  line-height: 305px;
+  font-size: 80px;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  box-shadow: 0 0 2px #000000;
+  display: none;
+}
+
+
+.dropdown-menu a {
+  display: block;
+  color: #0a358e;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* whatsapp */
+
+.whats {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}

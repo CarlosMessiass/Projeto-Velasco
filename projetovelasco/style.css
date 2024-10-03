@@ -230,107 +230,18 @@ section.sobre {
   transform: scale(1.01);
 }
 
-
-/* História do Velasco (Página 2) */
-
 section .pag2 {
-  padding: 50px 20px;
-  background-color: #d9e0eb;
+  background-color: #dadde2;
   height: 200vh;
-  text-align: center;
 }
+
 .pag2 h1 {
   text-align: center;
   justify-content: center;
-  margin-bottom: 20px;
   line-height: 305px;
-  position: relative;
   font-size: 80px;
-  color: #007BFF;
 }
 
-.pag2 h1::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #ffc107;
-  margin: 10px auto 0;
-}
-
-.pag2 p {
-  font-size: 18px;
-  color: #666;
-  max-width: 800px;
-  margin: 20px auto;
-  line-height: 1.8;
-}
-
-.image-gallery {
-  display: flex; 
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.image-gallery img {
-  width: 32%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.image-gallery img:hover {
-  transform: scale(1.05);
-}
-
-/* Tópicos */
-
-.info-sections {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  margin: 40px 0;
-}
-
-.section {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  flex: 1; 
-  min-width: 250px;
-  max-width: 30%;
-  text-align: center;
-}
-
-.section h2 {
-  font-size: 2em;
-  color: #007BFF;
-  margin-bottom: 20px;
-}
-
-.section ul {
-  list-style-type: disc;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-
-.section li {
-  font-size: 16px;
-  color: #333333;
-  margin: 10px 0;
-  line-height: 1.5;
-}
-
-
-
-.pag2 .interface {
-  text-align: center;
-}
 
 .dropdown-menu {
   position: absolute;
